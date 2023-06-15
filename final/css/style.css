@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 1rem;
+}
+
+.item {
+    background-color: #181a20;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+
+.article {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+
+.icon:hover {
+    cursor: pointer;
+    opacity:0.60;
+    color: purple;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+.display-middle {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+}
+
+.header-txt {
+    letter-spacing: 10px;
+    color: #fff!important; 
+    background-color: #000!important; 
+    padding: 12px 24px!important;
+    text-align: center!important;
+    font-size: 24px!important;
+    animation: opac 0.8s;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px;
+    max-width: 980px;
+}
+
+.episode {
+    color: #00bcd4;
+}
+
+.center {text-align: center;}
+
+.menu {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    user-select: none;
+}
+
+.button:hover{color:#000!important;background-color:#ccc!important}
