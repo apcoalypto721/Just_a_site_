@@ -1,4 +1,4 @@
-my friend and i created a site and here is the document for how it works and it's internal intractions
+my friend (arian hejazian) and i created a site and here is the document for how it works and it's internal intractions
 
 
 
